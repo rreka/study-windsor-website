@@ -4,47 +4,58 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Study.UWindsor</title>
+    <title>Study Group</title>
 
+    <!-- Other meta tags -->
+    <meta name="keywords" content="study group, University of Windsor, UWindsor, open science, programming, science">
+    <meta name="description" content="An open science study group for, and by, UWindsor researchers & students. We are a community of scientists, students, researchers and librarians who support each other in using computing skills for science and research.">
+    <meta name="author" content="UWindsor Open Science Study Group">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+
+    <!-- Icon font (Fontawesome) -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/bootstrap4-pleasant.min.css">
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="css/bootstrap4-pleasant.css">
 
-
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet">
 
 
   </head>
-  <body>
 
-  <div class="bg-primary navbar-dark text-white">
+<body>
+
+<!-- Navbar -->
+<div class="bg-primary sticky-top navbar-dark text-white">
     <div class="container">
         <nav class="navbar px-0 navbar-expand-lg navbar-dark sticky-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <a class="navbar-brand" href="#">Study Group</a>
+          <i class="fas fa-2x fa-code mr-2"></i>
+          <a class="navbar-brand" href="index.html">Study Group</a>
           <ul class="navbar-nav mr-auto">
             <li class="nav-link">
-              <a href="#" class="p-3 text-decoration-none text-light">Calendar</a>
+              <a href="calendar.html" class="p-3 text-decoration-none text-light">Calendar</a>
             </li>
             <li class="nav-link">
-              <a href="#" class="p-3 text-decoration-none text-light">Members</a>
-            </li>
-            <li class="nav-link">
-              <a href="#" class="p-3 text-decoration-none text-light">Code of Conduct</a>
+              <a href="code-of-conduct.html" class="p-3 text-decoration-none text-light">Code of Conduct</a>
             </li>
           </ul>
 
         <div class="navbar-nav">
           <ul class="navbar-nav col-xl-12 ml-auto">
             <li class="nav-link">
+              <!-- <a href="#" class="btn btn-outline-light">Join us</a> -->
               <a href="#" class="btn btn-light "><span class="fas fa-bullhorn mr-2"></span>Email List</a>
+              <a href="#" class="btn btn-light "><i class="fab fa-slack mr-2"></i>Join us on Slack</a>
             </li>
           </ul>
         </div>
-
         </ul>
         </div>
       </nav>
@@ -52,124 +63,193 @@
     </div>
   </div>
 
+<!-- Alert message -->
+<!-- <div class="alert alert-info alert-dismissible fade show py-4 m-2" role="alert">
+  <strong>Notice!</strong> Co-working for this week (October 17th, 2019) has been cancelled.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div> -->
 
 
+<!-- Jumbotron -->
 <div class="jumbotron bg-light mb-0 radius-0">
   <div class="container">
     <div class="row">
-      <div class="col-xl-12">
-        <h1 class="display-4">Study Group</h1>
-        <span class="lead">An open science study group for — and by — UWindsor researchers & students.</span>
+      <div class="col-lg-12">
 
-        <div class="mt-4">
+        <h1 class="display-4"><i class="fas 2x fa-code mr-3"></i>Study Group</h1>
+        <span class="lead">An open science study group for, and by, UWindsor researchers & students.</span>
+        <br><br>
+        <span class="lead">We are a community of scientists, students, researchers and librarians who support each other in using computing skills for science and research.</span>
+
+        <!-- <div class="mt-4">
           <a href="#!"
              class="btn btn-wide btn-primary btn-lg my-2 mr-2">
             <span>Join the group</span>
           </a>
 
-          <!-- <a href="#!"
+          <a href="#!"
              class="btn btn-wide btn-outline-dark btn-lg my-2">
-            <span>Join the study group</span> -->
+            <span>Join the study group</span>
           </a>
-        </div>
+        </div> -->
       </div>
+      <!-- <div class="col-lg-4">
+      </div> -->
     </div>
   </div>
 </div>
 
+<!-- About us section with icons -->
 <div class="container">
   <div class="row">
-    <div class="col-xl-8">
-      <div class="container py-5">
-        <h2>What we do</h2>
-
-        <p>Welcome to the University of Windsor open science study group! We are a community of scientists, students, researchers and librarians who support each other in using computing skills for science and research.</p>
-
-          <div class="row">
-            <div class="col-xl-3">
-              <span class="fa-stack fa-4x">
-                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                  <i class="fa fa-comment fa-stack-1x fa-inverse"></i>
-              </span>
-            </div>
-              <div class="col-xl-7">
-                <h4 class="service-heading">Skill Sharing</h4>
-                <p class="text-muted">Share your favorite coding skills and tools with your friends and colleagues in friendly, no-pressure work-alongs.</p>
-              </div>
-        </div>
-
-        <div class="row py-3">
-          <div class="col-xl-3">
-            <span class="fa-stack fa-4x">
-                <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
-          </div>
-            <div class="col-xl-7">
-              <h4 class="service-heading">Co-Working</h4>
-              <p class="text-muted">Get together to work on your coding projects, help each other out and share your work.</p>
-            </div>
-      </div>
-
-
-      <div class="row py-3">
-        <div class="col-xl-3">
-          <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-users fa-stack-1x fa-inverse"></i>
-          </span>
-        </div>
-          <div class="col-xl-7">
-            <h4 class="service-heading">Community Building</h4>
-            <p class="text-muted">Meet new people in your field, organization or community - and find out what we can do when we work together.</p>
-          </div>
-    </div>
-
-      </div>
-    </div>
-    <div class="col-xl-4">
-      <div class="container py-5">
-        <h2>Events in Fall 2019</h2>
-        <p>Check out the <a href="#">calendar</a> for all events and details.</p>
-        <div class="py-2">
-          <h4>Co-working</h4>
-          <b>Location:</b> Biology Learning Centre (Biology Building 201)
-          <br>
-          <b>Date & time:</b> Every other Thursday, 2:00-3:30 pm
-          <p class="pt-2">Bring your work, your laptop and your code and let's work together. This is a place to work on your project and ask each other questions as needed. No TAs - just mutual support from folks working on related topics.</p>
-        </div>
-        <div class="py-2">
-          <h4>Workshops</h4>
-          <b>Location:</b> Biology Learning Centre (Biology Building 201)
-          <br>
-          <b>Date & time:</b> Every other Thursday, 2:00-3:30 pm
-          <p class="pt-2">Bring your work, your laptop and your code and let's work together. This is a place to work on your project and ask each other questions as needed. No TAs - just mutual support from folks working on related topics.</p>
-        </div>
-
-      </div>
-
-
-    </div>
-  </div>
-  <div class="row">
-    <div class="mb-5">
-      <h2>Join us</h2>
-      <p>Joining our study group is easy. We ask that everyone abide by our Code of Conduct. Just subscribe to our email list in order to post questions and contribute your knowledge on our virtual space. Drop-by any of our co-working session without registration. We're happy to have you!</p>
-    </div>
+    <div class="col-lg-4 pt-4" align="center">
+      <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-comment fa-stack-1x fa-inverse"></i>
+      </span>
+      <h3 class="pt-3">Skill Sharing</h3>
+      <p>Share your favourite coding skills and tools with your friends and colleagues in friendly, no-pressure work-alongs.</p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4 pt-4" align="center">
+      <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+      </span>
+      <h3 class="pt-3">Co-Working</h3>
+      <p>Get together to work on your coding projects, help each other out and share your work.</p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4 pt-4" align="center">
+      <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fas fa-users fa-stack-1x fa-inverse"></i>
+      </span>
+      <h3 class="pt-3">Community Building</h3>
+      <p>Meet new people in your field, organization or community - and find out what we can do when we work together.</p>
+    </div><!-- /.col-lg-4 -->
   </div>
 </div>
 
-<!-- <section class="bg-light"> -->
-  <!-- <div class="container">
-    <div class="row">
-      <div class="col-xl-7">
-        <div>
-          <h2>Members</h2>
+<!-- Services section: events and emailing list -->
+<div class="row bg-light">
+  <div class="col-lg-7">
+    <div class="container px-5 py-4">
+      <!-- <hr> -->
+      <h2>In-person events</h2>
+      <hr>
+      <p>Join our study group in person as we work on our projects together, and attend related workshops. All events are free to join. Simply drop-in during any one of our co-working sessions, and sign-up for the free Library workshops. Check out the <a href="#">calendar</a> for all events and details.</p>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="py-2">
+            <h3>Co-working</h3>
+            <p class="pt-2">Bring your work, your laptop and your code and let's work together. This is a place to work on your project and ask each other questions as needed. No TAs - just mutual support from folks working on related topics.</p>
+            <b>Location:</b> Biology Learning Centre (Biology Building 201)
+            <br>
+            <b>Date & time:</b> <a href="calendar.html">Every other Thursday, 2:00-3:30 pm</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="py-2">
+            <h3>Workshops</h3>
+            <p class="pt-2">In collaboration with this study group, Leddy Library will be launching a series of data science workshops in October 2019. Workshops cover introductory topics in R, Python and Git. Find dates on the calendar, and more information <a href="#" target="_blank">on the library's website.</a></p>
+            <b>Location:</b> Biology Learning Centre (Biology Building 201)
+            <br>
+            <b>Date & time:</b> <a href="calendar.html">Every other Thursday, 2:00-3:30 pm</a>
+          </div>
         </div>
       </div>
     </div>
-  </div> -->
-<!-- </section> -->
+
+  </div>
+  <div class="col-lg-5">
+    <div class="container px-5 py-4">
+      <!-- <hr> -->
+      <h2>Virtually</h2>
+      <hr>
+      <p>Join our study group community virtually and share your favourite tools and skills, ask questions about coding problems you're running into with your research, and find out what other people are up to.</p>
+      <h3>Email list</h3>
+      <p>We maintain a Google Groups mailing list to stay connected. Join at no cost.</p>
+
+      <a href="#" class="btn btn-primary "><span class="fas fa-bullhorn mr-2"></span>Email List</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Members -->
+
+<div class="row py-4">
+    <div class="col-lg-12">
+        <div class="container" align="center">
+            <h2>Members</h2>
+            <p>We are a diverse group hailing from different departments across campus. Interested in joining? Simply join our Slack channel to become part of the study group! We encourage you to add your profile to the website!</p>
+        </div>
+    </div>
+</div>
+<div class="row px-5" align="center">
+    <div class="col-lg-4">
+        <div class="ht-tm-element card" style="width: 12rem;">
+          <img class="card-img-top" src="" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Ellyn Davidson</h4>
+            <p class="text-muted">PhD student, Integrative Biology</p>
+            <p>Interests:</p>
+            <ul class="list-inline">
+                <li class="fa fa-angle-right">&nbsp;R</li>
+            </ul>
+            <a href="#" target="_blank" class="btn btn-primary"><i class="fab fa-github mr-2"></i>GitHub</a>
+          </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="ht-tm-element card" style="width: 12rem;">
+          <img class="card-img-top" src="" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Sarah Popov</h4>
+            <p class="text-muted">MSc candidate, Integrative Biology</p>
+            <p>Interests:</p>
+            <ul class="list-inline">
+                <li class="fa fa-angle-right">&nbsp;R</li>
+            </ul>
+            <a href="#" target="_blank" class="btn btn-primary"><i class="fab fa-github mr-2"></i>GitHub</a>
+          </div>
+        </div>
+    </div>
+        <div class="col-lg-4">
+            <div class="ht-tm-element card" style="width: 12rem;">
+              <img class="card-img-top" src="https://avatars.githubusercontent.com/rreka?s=400" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Roger Reka</h4>
+                <p class="text-muted">Librarian, Leddy Library</p>
+                <p>Interests:</p>
+                <ul class="list-inline">
+                    <li class="fa fa-angle-right">&nbsp;Python</li>
+                    <li class="fa fa-angle-right">&nbsp;Bibliometrics</li>
+                    <li class="fa fa-angle-right">&nbsp;Open Science</li>
+                </ul>
+                <a href="https://github.com/rreka" target="_blank" class="btn btn-primary"><i class="fab fa-github mr-2"></i>GitHub</a>
+              </div>
+            </div>
+        </div>
+
+</div>
+
+<!-- Footer -->
+<footer class="container py-5 my-5">
+  <hr>
+  <div class="row">
+      <div class="col-lg-8">
+          <p>The University of Windsor Open Science study group is part of the <a href="https://science.mozilla.org/programs/studygroups/join" target="_blank">Mozilla Science Lab initiative</a>.</p>
+      </div>
+      <div class="col-lg-4">
+          <a href="#" class="float-right">Back to top</a>
+      </div>
+  </div>
+
+</footer>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
