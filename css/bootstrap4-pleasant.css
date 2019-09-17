@@ -5,6 +5,17 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+
+ .responsiveCal {
+ position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+ }
+
+ .responsiveCal iframe {
+ position: absolute; top:0; left: 0; width: 100%; height: 100%;
+ }
+
+
  .team-member {
      margin-bottom: 50px;
      text-align: center;
